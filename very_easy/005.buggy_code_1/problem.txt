@@ -1,0 +1,9 @@
+Buggy Code (Part 1)
+
+
+Examples
+cubes(3) ➞ 27
+cubes(5) ➞ 125
+cubes(10) ➞ 1000
+
+https://edabit.com/challenge/j7yQbF3J3rToHsDBP
