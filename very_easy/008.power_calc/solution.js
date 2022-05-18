@@ -1,3 +1,5 @@
+"use strict";
+
 const circuitPower = (volt, curr) => volt * curr;
 
 console.log(circuitPower(230, 10));

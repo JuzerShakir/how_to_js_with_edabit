@@ -1,3 +1,5 @@
+"use strict";
+
 const area = (b, h) => 0.5 * b * h;
 
 console.log(area(3, 2));

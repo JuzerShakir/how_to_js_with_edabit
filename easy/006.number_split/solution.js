@@ -1,3 +1,5 @@
+"use strict";
+
 const input = document.querySelector(".input");
 const ans = document.querySelector(".answer");
 

@@ -1,3 +1,5 @@
+"use strict";
+
 const convert = (m) => m * 60;
 
 console.log(convert(5));

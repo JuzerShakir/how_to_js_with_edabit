@@ -1,3 +1,5 @@
+"use strict";
+
 const calcAge = (d) => Math.abs(d * 365);
 
 console.log(calcAge(65));

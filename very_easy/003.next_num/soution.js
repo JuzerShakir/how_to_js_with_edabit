@@ -1,3 +1,5 @@
+"use strict";
+
 const addition = (n) => n + 1;
 
 console.log(addition(0));

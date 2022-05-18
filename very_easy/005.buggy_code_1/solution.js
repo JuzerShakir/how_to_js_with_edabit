@@ -1,3 +1,5 @@
+"use strict";
+
 const cubes = (num) => num ** 3;
 
 console.log(cubes(10));

@@ -1,3 +1,5 @@
+"use strict";
+
 const nextEdge = (a, b) => a + b - 1;
 
 console.log(nextEdge(8, 10));

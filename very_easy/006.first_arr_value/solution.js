@@ -1,3 +1,5 @@
+"use strict";
+
 const getFirstValue = (arr) => arr[0];
 
 console.log(getFirstValue([1, 2, 3]));

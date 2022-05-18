@@ -1,3 +1,5 @@
+"use strict";
+
 const addition = function (a, b) {
   return a + b;
 };

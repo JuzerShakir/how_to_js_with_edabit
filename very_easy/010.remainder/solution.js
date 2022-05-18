@@ -1,3 +1,5 @@
+"use strict";
+
 const remainder = (a, b) => a % b;
 
 console.log(remainder(1, 3));
