@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script defer src="solution.js"></script>
+    <title>Edabit Solutions</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        height: 100vh;
+        display: block;
+        align-items: center;
+        background: linear-gradient(to top left, #28b487, #01ff70);
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: unset;
+        overflow: hidden;
+      }
+      h1,
+      p,
+      .notes-heading {
+        font-size: 35px;
+        line-height: 1.3;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        text-align: center;
+        color: #009b77;
+      }
+      .area,
+      .perimeter,
+      .inputBtn {
+        font-size: 1.4rem;
+        padding: 0.5rem 1rem;
+        position: absolute;
+        top: 2rem;
+      }
+      .area {
+        left: 2rem;
+      }
+      .perimeter {
+        right: 2rem;
+      }
+      .question {
+        font-size: 20px;
+        line-height: 1.4;
+        color: #001f3f;
+      }
+      .examples {
+        display: block;
+        background: linear-gradient(to top left, #2ce893, #a1ff29);
+        width: 100%;
+        padding-bottom: 10px;
+      }
+      .example-heading {
+        text-align: -webkit-center;
+        font-size: 20px;
+        font-weight: 100;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        color: #009b77;
+      }
+      .example-list {
+        padding-top: 5px;
+        font-size: 17px;
+        line-height: 1.4;
+        color: #0074d9;
+      }
+
+      .notes-heading,
+      .notes-content {
+        text-align: left;
+        color: #85144b;
+        font-style: italic;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+      }
+
+      .notes-heading {
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 0px;
+      }
+      .notes-content {
+        padding-top: 0px;
+        font-size: 17px;
+      }
+      .answer {
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Make a Circle with OOP</h1>
+    <button class="area">Area</button>
+    <button class="perimeter">Perimeter</button>
+    <p class="question">
+      Your task is to create a Circle constructor that creates a circle with a
+      radius provided by an argument. The circles constructed must have two
+      methods getArea() (PI*r^2) and getPerimeter() (2*PI*r) which give both
+      respective areas and perimeter (circumference).<br />
+
+      For help with this class, I have provided you with a Rectangle constructor
+      which you can use as a base example..
+    </p>
+    <div class="examples">
+      <h3 class="example-heading">Examples</h3>
+      <ul>
+        <li class="example-list">
+          let circy = new Circle(11)<br />
+          circy.getArea()<br />
+          // Should return 380.132711084365
+        </li>
+        <li class="example-list">
+          let circy = new Circle(4.44)<br />
+          circy.getPerimeter()<br />
+          // Should return 27.897342763877365
+        </li>
+      </ul>
+    </div>
+
+    <div class="notes">
+      <h4 class="notes-heading">Notes</h4>
+      <p class="notes-content">Here are your notes</p>
+    </div>
+    <br />
+    <br />
+    <form id="rad_sub">
+      <label for="input">Enter the radius of the circle</label><br />
+      <input type="text" name="input" id="userInput" value="" /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <p class="answer"></p>
+  </body>
+</html>
